@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # HH Central Asia — IT Labor Market Analysis
 
 Анализ рынка data-вакансий в Центральной Азии на основе данных hh.ru.
@@ -73,4 +72,3 @@ python src/parser.py   # сбор данных
 python src/loader.py   # загрузка в БД
 jupyter notebook       # анализ
 ```
-EOF
