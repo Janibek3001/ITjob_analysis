@@ -1,53 +1,13 @@
 # HH Central Asia — IT Labor Market Analysis
-
 Анализ рынка data-вакансий в Центральной Азии на основе данных hh.ru.
+> 📊 Полный аналитический отчет доступен в [REPORTS.md](REPORTS.md).
 
-## 📊 Что исследовали
+## Что исследовали
 
 - 1300+ вакансий по Казахстану, Узбекистану и Кыргызстану
 - Роли: Data Analyst, Data Engineer, Data Scientist, Business Analyst, BI Developer
 - Навыки, зарплаты, опыт, топ работодатели
 
-## 📈 Визуализации
-
-### Топ технических навыков
-![skills](reports/top_tech_skills.png)
-
-### Зарплаты по ролям
-![salary](reports/salary_by_role.png)
-
-### Вакансии по городам
-![cities](reports/cities.png)
-
-## 🔍 Главные инсайты
-
-**Города:**
-- Алматы лидирует — 600 вакансий
-- Ташкент второй — 378
-- Астана третья — 221
-
-**Зарплаты (медиана, USD/месяц):**
-
-| Роль | Зарплата |
-|------|----------|
-| Data Scientist / ML | $1,250 |
-| Data Engineer | $1,200 |
-| Business / Product Analyst | $1,100 |
-| Data Analyst | $1,000 |
-| BI Developer | $895 |
-
-**Зарплата по опыту:**
-
-| Опыт | Зарплата |
-|------|----------|
-| Без опыта | $540 |
-| 1–3 года | $950 |
-| 3–6 лет | $1,400 |
-| 6+ лет | $2,000 |
-
-**Топ технические навыки:** SQL, Python, Power BI, Docker, PostgreSQL, Git, ETL
-
-**Топ работодатели:** Ipotekabank, Beeline, Kaspi.kz, Andersen, BI Group
 
 ## 🛠 Стек
 
