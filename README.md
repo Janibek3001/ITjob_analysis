@@ -8,6 +8,17 @@
 - Роли: Data Analyst, Data Engineer, Data Scientist, Business Analyst, BI Developer
 - Навыки, зарплаты, опыт, топ работодатели
 
+## 📈 Визуализации
+
+### Топ технических навыков
+![skills](reports/top_tech_skills.png)
+
+### Зарплаты по ролям
+![salary](reports/salary_by_role.png)
+
+### Вакансии по городам
+![cities](reports/cities.png)
+
 ## 🔍 Главные инсайты
 
 **Города:**
@@ -16,6 +27,7 @@
 - Астана третья — 221
 
 **Зарплаты (медиана, USD/месяц):**
+
 | Роль | Зарплата |
 |------|----------|
 | Data Scientist / ML | $1,250 |
@@ -25,6 +37,7 @@
 | BI Developer | $895 |
 
 **Зарплата по опыту:**
+
 | Опыт | Зарплата |
 |------|----------|
 | Без опыта | $540 |
@@ -45,7 +58,9 @@
 
 ## 📁 Структура
 
-hh-central-asia/
+
+```
+ITjob_analysis/
 ├── data/
 │   ├── raw/          # сырые JSON с API
 │   └── processed/    # очищенные данные
@@ -60,12 +75,13 @@ hh-central-asia/
 ├── tests/
 │   └── test_cleaner.py
 └── reports/          # графики
+```
 
 ## 🚀 Запуск
 
 ```bash
-git clone https://github.com/USERNAME/hh-central-asia
-cd hh-central-asia
+git clone https://github.com/Janibek3001/ITjob_analysis
+cd ITjob_analysis
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python src/parser.py   # сбор данных
