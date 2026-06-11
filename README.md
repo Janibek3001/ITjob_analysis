@@ -21,20 +21,28 @@
 
 ```
 ITjob_analysis/
-├── data/
-│   ├── raw/          # сырые JSON с API
-│   └── processed/    # очищенные данные
 ├── notebooks/
-│   ├── 02_cleaning.ipynb
-│   ├── 03_skills.ipynb
-│   └── 04_salary.ipynb
+│   ├── 01_edu.ipynb      # Exploratory Data Analysis
+│   ├── 02_cleaning.ipynb # Очистка данных
+│   ├── 03_skills.ipynb   # Анализ навыков
+│   └── 04_salary.ipynb   # Анализ зарплат
+├── reports/              # Графики (PNG)
+│   ├── cities.png
+│   ├── roles.png
+│   ├── salary_by_city.png
+│   ├── salary_by_experience.png
+│   ├── salary_by_role.png
+│   ├── skills_by_role.png
+│   ├── top_employers.png
+│   └── top_tech_skills.png
 ├── src/
-│   ├── parser.py     # сбор данных с hh.ru API
-│   ├── loader.py     # загрузка в PostgreSQL
-│   └── cleaner.py    # очистка и нормализация
+│   ├── parser.py         # Сбор данных с hh.ru API
+│   ├── loader.py         # Загрузка в PostgreSQL
+│   └── cleaner.py        # Очистка и нормализация
 ├── tests/
 │   └── test_cleaner.py
-└── reports/          # графики
+├── README.md
+└── REPORTS.md   
 ```
 
 ## 🚀 Запуск
